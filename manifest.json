@@ -1,47 +1,47 @@
 {
   "loader": {
     "version": "1.0.0",
-    "url": "https://github.com/user/repo/releases/download/v1.0.0/Loader.exe",
+    "url": "https://raw.githubusercontent.com/i78191217-boop/Saspl/main/Loader.exe",
     "sha256": "a1b2c3d4e5f6...",
     "size": 2097152,
-    "releaseDate": "2026-08-16"
+    "releaseDate": "2026-08-17"
   },
   "client": {
-    "version": "1.16.5",
-    "url": "https://github.com/user/repo/releases/download/v1.0.0/fate.jar.enc",
+    "version": "1.21.4",
+    "url": "https://raw.githubusercontent.com/i78191217-boop/Saspl/main/fate.jar.enc",
     "sha256": "8A2B916F1367CF0ECA797082CA05B03962C605C59545D4EC5079DA055EC8EF0F",
     "size": 32480480
   },
   "native": {
     "platform_S3d": {
       "version": "1.0.0",
-      "url": "https://github.com/user/repo/releases/download/v1.0.0/platform_S3d.dll",
+      "url": "https://raw.githubusercontent.com/i78191217-boop/Saspl/main/platform_S3d.dll",
       "sha256": "ABD7CE865646104B0580ED726FF20078C544A4164D5401B6E52F44A1917416C0",
       "size": 14451712
     },
     "platform_runtime_guard": {
       "version": "1.0.0",
-      "url": "https://github.com/user/repo/releases/download/v1.0.0/platform_runtime_guard.dll",
+      "url": "https://raw.githubusercontent.com/i78191217-boop/Saspl/main/platform_runtime_guard.dll",
       "sha256": "494F4196685120494006D91FC226E5C85666C724E376338A1D2A8A91F3EA98A1",
       "size": 13697024
     },
     "platform_runtime": {
       "version": "1.0.0",
-      "url": "https://github.com/user/repo/releases/download/v1.0.0/platform_runtime.dll",
+      "url": "https://raw.githubusercontent.com/i78191217-boop/Saspl/main/platform_runtime.dll",
       "sha256": "D24167640957E6CEA764F40CFC9935C9B46FF5C33378FBF2EC966C50CDEEDA30",
       "size": 21210112
     }
   },
   "deployment": {
-    "baseUrl": "https://github.com/user/repo/releases/download",
-    "workerApi": "https://api.example.com",
+    "baseUrl": "https://raw.githubusercontent.com/i78191217-boop/Saspl/main",
+    "workerApi": "https://cold-violet-zashitton.swiftkeyflowswiftkey03.workers.dev",
     "checksumAlgorithm": "SHA256",
     "verifySignatures": true,
     "autoUpdate": true,
     "updateCheckInterval": 3600
   },
   "security": {
-    "note": "Encryption key, wrapped key, and VMP status are provided by Worker API after authentication",
+    "note": "Encryption key provided by Worker API after authentication",
     "requireAuth": true,
     "minLoaderVersion": "1.0.0",
     "maxLoaderVersion": "9.9.9"
